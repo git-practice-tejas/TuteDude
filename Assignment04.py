@@ -20,11 +20,11 @@ Problem Statement: Write a Python program that:
 '''
 
 file = open('output.txt', 'r+')
-user_input = input("Enter a your name: ")
+user_input = input("Enter a text: ")
 file.write(user_input)
 
 file = open('output.txt', 'a')
-file.write(" Wellcome to python course")
+file.write(" \nLearning file handling in Python")
 
 file = open('output.txt', 'r+')
 reading_file = file.read()

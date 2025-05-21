@@ -1,1 +1,2 @@
-tejas Wellcome to python course
+Hello, Python 
+Learning file handling in Python
