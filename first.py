@@ -19,17 +19,23 @@
 # else:
 #     print("Unknown operator")
 
+# def add(x,y):
+#     return x+y
+#
+# def square(z):
+#     return z*z
+#
+# print(square(add(6,1)))
 
+# Factorial using recurssion
 
+def fact(n):
+    if n < 2:
+        return 1
+    else:
+        return n * fact(n-1)
 
-
-
-
-
-
-
-
-
+print(fact(8))
 
 
 
